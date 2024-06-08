@@ -1,15 +1,23 @@
+-- to CREATE a DATABASE
+
 CREATE DATABASE mysql_tut;
 
+-- to USE a DATABASE 
 USE mysql_tut;
 
+
+-- to CREATE a TABLE
 CREATE TABLE department(
 	dept_id VARCHAR(50) PRIMARY KEY,
     dept_name VARCHAR(200) NOT NULL
 );
-    
+
+
+-- to DESCRIBE the structure of TABLE
 DESC department;
 
 
+-- showing example of FOREIGN KEY relation
 CREATE TABLE employee(
 	emp_id VARCHAR(50) PRIMARY KEY,
     emp_name VARCHAR(100) NOT NULL,
