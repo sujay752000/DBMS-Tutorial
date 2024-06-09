@@ -34,8 +34,12 @@ ALTER TABLE employees
 ALTER TABLE employees
 	DROP CONSTRAINT unique_prop;
     
+    
+-- To DROP COLUMN in a TABLE
+ALTER TABLE employees
+	DROP COLUMN emp_company;
+    
 	
  -- To DROP a COLUMN in TABLE
 ALTER TABLE employees
 	DROP COLUMN emp_role;
-    
