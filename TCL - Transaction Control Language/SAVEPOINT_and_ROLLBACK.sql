@@ -23,3 +23,5 @@ START TRANSACTION;
 		WHERE student_id = 'stu-4';
         
 	ROLLBACK TO before_update;
+    
+    COMMIT;
